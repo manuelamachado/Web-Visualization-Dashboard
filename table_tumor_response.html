@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Pymaceuticals</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstwatch/3.3.6/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="./landing.html"><span class="Results and Conclusions">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                            <span class="caret"></span></button> 
+                            <ul class="dropdown-menu">
+                                <li><a href="./visualization-image-1.html">Tumor Response to Treatment</a></li>
+                                <li><a href="./visualization-image-2.html">Metastatic Spread During Treatment</a></li>
+                                <li><a href="./visualization-image-3.html">Survival During Treatment</a></li>
+                                <li><a href="./visualization-image-4.html">Tumor Change Over 45 Day Treatment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./Comparisons.html"><span class="c-d">Comparison</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Tables
+                            <span class="caret"></span></button> 
+                            <ul class="dropdown-menu">
+                                <li><a href="./table_tumor_response.html">Tumor Response to Treatment</a></li>
+                                <li><a href="./Metastatic_Spread.html">Metastatic Spread During Treatment</a></li>
+                                <li><a href="./Survival_Rates.html">Survival During Treatment</a></li>
+                                <li><a href="./Tumor_Changes.html">Tumor Change Over 45 Day Treatment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="box">
+                            <div class="page-header">
+                                <h1 class="title">Table - Tumor Response to Treatment</h1>
+                                <p class="category">The following table contains the data used for plotting the Tumor Response to Treatment graphic during this project.</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-hover table-striped">
+                                        <table border="1" class="dataframe">
+                                                <thead>
+                                                  <tr style="text-align: right;">
+                                                    <th>Drug</th>
+                                                    <th>Capomulin</th>
+                                                    <th>Ceftamin</th>
+                                                    <th>Infubinol</th>
+                                                    <th>Ketapril</th>
+                                                    <th>Naftisol</th>
+                                                    <th>Placebo</th>
+                                                    <th>Propriva</th>
+                                                    <th>Ramicane</th>
+                                                    <th>Stelasyn</th>
+                                                    <th>Zoniferol</th>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>Timepoint</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th>0</th>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                    <td>45.000000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>5</th>
+                                                    <td>44.266086</td>
+                                                    <td>46.503051</td>
+                                                    <td>47.062001</td>
+                                                    <td>47.389175</td>
+                                                    <td>46.796098</td>
+                                                    <td>47.125589</td>
+                                                    <td>47.248967</td>
+                                                    <td>43.944859</td>
+                                                    <td>47.527452</td>
+                                                    <td>46.851818</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>10</th>
+                                                    <td>43.084291</td>
+                                                    <td>48.285125</td>
+                                                    <td>49.403909</td>
+                                                    <td>49.582269</td>
+                                                    <td>48.694210</td>
+                                                    <td>49.423329</td>
+                                                    <td>49.101541</td>
+                                                    <td>42.531957</td>
+                                                    <td>49.463844</td>
+                                                    <td>48.689881</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>15</th>
+                                                    <td>42.064317</td>
+                                                    <td>50.094055</td>
+                                                    <td>51.296397</td>
+                                                    <td>52.399974</td>
+                                                    <td>50.933018</td>
+                                                    <td>51.359742</td>
+                                                    <td>51.067318</td>
+                                                    <td>41.495061</td>
+                                                    <td>51.529409</td>
+                                                    <td>50.779059</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>20</th>
+                                                    <td>40.716325</td>
+                                                    <td>52.157049</td>
+                                                    <td>53.197691</td>
+                                                    <td>54.920935</td>
+                                                    <td>53.644087</td>
+                                                    <td>54.364417</td>
+                                                    <td>53.346737</td>
+                                                    <td>40.238325</td>
+                                                    <td>54.067395</td>
+                                                    <td>53.170334</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>25</th>
+                                                    <td>39.939528</td>
+                                                    <td>54.287674</td>
+                                                    <td>55.715252</td>
+                                                    <td>57.678982</td>
+                                                    <td>56.731968</td>
+                                                    <td>57.482574</td>
+                                                    <td>55.504138</td>
+                                                    <td>38.974300</td>
+                                                    <td>56.166123</td>
+                                                    <td>55.432935</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>30</th>
+                                                    <td>38.769339</td>
+                                                    <td>56.769517</td>
+                                                    <td>58.299397</td>
+                                                    <td>60.994507</td>
+                                                    <td>59.559509</td>
+                                                    <td>59.809063</td>
+                                                    <td>58.196374</td>
+                                                    <td>38.703137</td>
+                                                    <td>59.826738</td>
+                                                    <td>57.713531</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>35</th>
+                                                    <td>37.816839</td>
+                                                    <td>58.827548</td>
+                                                    <td>60.742461</td>
+                                                    <td>63.371686</td>
+                                                    <td>62.685087</td>
+                                                    <td>62.420615</td>
+                                                    <td>60.350199</td>
+                                                    <td>37.451996</td>
+                                                    <td>62.440699</td>
+                                                    <td>60.089372</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>40</th>
+                                                    <td>36.958001</td>
+                                                    <td>61.467895</td>
+                                                    <td>63.162824</td>
+                                                    <td>66.068580</td>
+                                                    <td>65.600754</td>
+                                                    <td>65.052675</td>
+                                                    <td>63.045537</td>
+                                                    <td>36.574081</td>
+                                                    <td>65.356386</td>
+                                                    <td>62.916692</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th>45</th>
+                                                    <td>36.236114</td>
+                                                    <td>64.132421</td>
+                                                    <td>65.755562</td>
+                                                    <td>70.662958</td>
+                                                    <td>69.265506</td>
+                                                    <td>68.084082</td>
+                                                    <td>66.258529</td>
+                                                    <td>34.955595</td>
+                                                    <td>68.438310</td>
+                                                    <td>65.960888</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
