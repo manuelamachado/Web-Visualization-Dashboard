@@ -1,6 +1,7 @@
 
 # Web Visualization Dashboard 
 
+Website deployed to github pages: https://manuelamachado.github.io/Web-Visualization-Dashboard/
 
 Created a visualization dashboard website using HTML and CSS and visualizations we've created in a past assignment. 
 
@@ -23,7 +24,7 @@ Created individual pages for each plot and a means by which we can navigate betw
   * Displays a responsive tables containing the data used in the visualizations.
 * The nav bar has similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) 
 
-Website must be deployed to github pages: https://manuelamachado.github.io/Web-Visualization-Dashboard/
+
 
 
 
